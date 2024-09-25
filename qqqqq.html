@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>您正在登陆原神</title>
+  <link rel="icon" href="favicon_io/favicon-32x32.png" type="image/png">
+  <link rel="stylesheet" href="back.css">
+
+</head>
+
+<body>
+
+  <div class="login" id="loginform">
+    <a href="https://www.bilibili.com/video/BV1C64y1j7Vt/?spm_id_from=333.337.search-card.all.click" target="_blank">
+      <img src="favicon_io/favicon-32x32.png" alt="neko" ; style="height: 50px;width: 50px;margin-top: 10%;">
+    </a>
+
+    <div>
+      <p><b>用户名或账号:</p>
+
+      <input type="text" placeholder="请输入用户名或者账号" class="name" required name="name" id="name">
+
+    </div>
+    <div>
+      <p> <b>密码：</p>
+      <input type="password" placeholder="请输入密码" class="password" required name="password" id="password">
+      <button class="checkpassword" id="checkpassword" type="button" onclick="checkpassword ()">
+        显示
+      </button>
+    </div>
+    <div class="login-btn">
+      <h>没有账号? <button id="reg"
+          style="color:rgb(203, 172, 61) ;background-color: transparent; border: none; cursor: pointer; font-size: 12px;font-family: cursive; "
+          ;>立即注册</button>
+      </h>
+      <h1 style="font-size:12px;
+      font-weight:1px;
+      color:rgb(221, 184, 36) ;
+      cursor:pointer;
+      font-family: cursive;" ; onclick="forget()">
+        忘记密码？
+      </h1>
+    </div>
+    <button type="submit" onclick="login(event)" class="start">
+      元神启动
+    </button>
+  </div>
+
+
+
+  <div class="register" id="registerform"style="display:none;">
+    <a href="https://www.bilibili.com/video/BV1C64y1j7Vt/?spm_id_from=333.337.search-card.all.click" target="_blank" >
+      <img src="favicon_io/favicon-32x32.png" alt="neko" style="display:block;">
+    </a>
+    <div>
+      <p for="name"><b>用户名或账号</p>
+      <input type="text" placeholder="请输入用户名或者账号" class="name1" required name="name">
+    </div>
+    <div>
+      <p> <b>新密码</p>
+      <input type="password" placeholder="请输入密码(哦耶)" class="password1" required name="password">
+    </div>
+    <div>
+      <p> <b>确认密码</p>
+      <input type="password" placeholder="请再次输入密码" class="password2" required name="password">
+    </div>
+    <button
+       type="button" id="button1">
+      注册</button>
+  </div>
+
+</body>
+<script src="D:\Front-end\favicon_io\js111.js"></script>
+
+</html>

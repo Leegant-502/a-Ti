@@ -1,0 +1,118 @@
+body {
+  background-image: url('../R-C.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+
+div.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  z-index: 1;
+  border: 1px;
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
+  box-shadow: 0 0 10px #f8f5f5;
+  background-color: #e1e1e1;
+}
+
+.name {
+  height: 30px;
+  width: 350px;
+
+}
+
+.name1 {
+
+  height: 30px;
+  width: 200px;
+}
+
+.password {
+
+  height: 30px;
+  width: 300px;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid;
+  transition: border-bottom 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid green;
+}
+
+div.register {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px;
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
+  box-shadow: 0 0 10px #f8f5f5;
+  background-color: #e1e1e1;
+  margin: auto;
+
+}
+
+.checkpassword {
+  border: none;
+  background-color: #292622;
+  border-radius: 20%;
+  color: rgb(235, 202, 132)
+}
+
+.start {
+  background-color: #292622;
+  color: white;
+  padding: 9px 20px;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  color: rgb(235, 202, 132);
+  border-radius: 10px;
+  margin-left: 20%;
+}
+
+.login-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#button1 {
+  margin-left: 20%;
+  background-color: #292622;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  color: rgb(235, 202, 132);
+  border-radius: 10px;
+}
+
+.name1 {
+  width: 220px;
+}
+
+.password1 {
+  width: 220px;
+}
